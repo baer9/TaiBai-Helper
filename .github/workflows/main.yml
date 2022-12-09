@@ -9,7 +9,7 @@ on:
 
 jobs:
   TieBa_Sign:
-    runs-on: ubuntu-20
+    runs-on: ubuntu-22.04
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@v2
